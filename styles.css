@@ -1,0 +1,26 @@
+div{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    padding: 10px;
+    width: 15%; 
+    margin: auto; 
+}
+
+.center{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.Continue_button{
+    margin: auto;
+    display: flex;
+}
+
+
+
+.Continue_button{
+    background: rgb(238, 190, 87);  
+    
+}
