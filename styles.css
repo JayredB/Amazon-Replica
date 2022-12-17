@@ -1,26 +1,124 @@
-div{
-    display: flex;
-    flex-direction: column;
-    border-style: solid;
-    padding: 10px;
-    width: 15%; 
-    margin: auto; 
+body {
+    text-align: center;
+    margin: auto;
 }
 
-.center{
-    display: block;
+
+.logo{
+    margin-top:4%;
+    margin-bottom: 3%;;
+    width: 10%;
+}
+
+
+.main{
+    margin: auto;
+    border-style: solid;
+    border-width:thin; 
+    border-color:lightgray;
+    border-radius: 1%;
+    padding: 20px;
+    width: 20%;  
+    text-align: left;  
+}
+
+
+.email{
+    margin-bottom:10px;
+    margin-top:10px;    
+}
+
+
+input{
+    width:100%;
+    height:25px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+
+.forgot_password{
+    display:inline-block;
+    color: #4566d3;
+    margin-left:40%;
+    cursor: pointer;    
+}
+
+
+.continue{
+    margin-top:4%;
+    text-align: center;
+    border-radius: 2px;
+    border-width: thin;
+    border-color: lightgray;
+    background: rgb(238, 190, 87);  
+    width:103%;
+    height:30px;
+    cursor: pointer;
+}
+
+
+.help{
+    font-size: 15px;
+    color: #4566d3;
+    border:none;
+    background-color:white;
+    cursor: pointer;
+    padding-top:5%;
+}
+
+.new{
+    text-align: center;
+    margin: auto;
+}
+
+
+.b3{
+    margin-top:10px;
+    border-radius: 2px;
+    border-width: thin;
+    border-color: lightgray;
+    background: rgb(192, 192, 191);  
+    width:20%;
+    height:5%;
+    cursor: pointer;
+}
+
+h2{
+    color:rgb(141, 140, 140);
+    width: 20%; 
+    text-align:center; 
+    border-bottom: 1px solid rgb(141, 140, 140); 
+    line-height: 0.1em;
+    margin: 40px 0 20px; 
     margin-left:auto;
     margin-right:auto;
 }
 
-.Continue_button{
-    margin: auto;
-    display: flex;
+h2 span{
+    height:2px;
+    background: white; 
+    padding: 20px; 
+}
+
+.line{
+    color:rgb(49, 48, 48);
+    width: 100%; 
+    text-align:center; 
+    line-height: 5px;
+    border-bottom: 1px solid rgb(141, 140, 140); 
+    margin: 90px 0 20px; 
+    margin-left:auto;
+    margin-right:auto;
 }
 
 
+ul a {
+    padding:15px;
+    text-decoration: none;    
+  }
 
-.Continue_button{
-    background: rgb(238, 190, 87);  
-    
-}
+  p{
+    margin-left:2%;
+    margin-top:25px;
+  }
